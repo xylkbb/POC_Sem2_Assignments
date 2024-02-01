@@ -1,4 +1,3 @@
-
 try:
     test = int(input("(first number -->)  "))
     test2 = int(input("Divided by  "))
