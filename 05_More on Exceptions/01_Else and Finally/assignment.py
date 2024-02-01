@@ -1,3 +1,5 @@
+#Continue with code from 3.3
+
 number1 = 0
 number2 = 0
 try:
