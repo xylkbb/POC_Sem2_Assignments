@@ -6,8 +6,7 @@ try:
     number1 = int(input("Enter a number"))
     # YOUDO.  use input function and int to set number2
 except ValueError:
-    # print message stating that an integer wasn't given
-    pass  # YOUDO remove pass when done
+    print("An input was not correct")
 else:
     print("No value error detected")
 finally:
