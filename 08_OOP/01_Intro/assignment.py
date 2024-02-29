@@ -1,27 +1,14 @@
-import math
-
-class RightTriangle:
+class RightTriangle: 
     def __init__(self, base, height):
         self.base = base
-        self.height = height
-
+        #You do the same thing for the height
+        pass #You do:  remove this pass when done.  
+    
     def area(self):
-        #YOUDO:  return the area of a right triangle from the formula. 
-        pass #remove when done. 
-    
-    def hypotenuse(self):
-        return math.hypot(self.height * self.base)
-    
-    def perimeter(self):
-        return self.base + self.height + self.hypotenuse
-    
-    
-tri1 = RightTriangle(3, 4)
-print("The base of tri1 is", tri1.base)
-# print("The height of tri1 is", tri1.height)
-print("The area of tri1 is", tri1.area())
-#YOU make another and print its area.  
+        #You do:  return the area calculated from the formula 1/2 base * height.  
+        #You do:  remember to access the base you need to use self.base, same for the height
+        pass  # You do:  remove this pass when done.
 
-
-    
-
+triangle_1 = RightTriangle(3, 4)
+print("The area of triange_1 is", triangle_1.area())
+#Do the same thing for another triangle.  
