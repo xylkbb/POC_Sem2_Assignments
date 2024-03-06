@@ -1,7 +1,14 @@
 class Rectangle:
     def __init__(self, base: float, height: float) -> None:
-        self.__base = base
-        self.__height = height
+        if(base < 0):
+            self.__base = 0
+        else:       
+            self.__base = base
+            
+        if(height < 0):
+            self.__height = 0
+        else:
+            self.__height = height
         
     def get_height(self) -> float:
         return self.__height
