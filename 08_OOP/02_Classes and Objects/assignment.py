@@ -40,7 +40,6 @@ print("The hypotenuse of triangle2 is", triangle2.hypotenuse())
 print("The perimeter of triangle2 is", triangle2.perimeter())
 print("The small angle of triangle2 is", triangle2.min_angle)
 print("The large angle of triangle2 is", triangle2.max_angle)
-triangle2.base = 15
 
 
 
